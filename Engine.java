@@ -62,10 +62,10 @@ public class Engine {
     for (int i = 0; i < BOARD_SIZE; i++){
         for (int j = 0; j < BOARD_SIZE; j++){
             if (board[i][j] == " ")
-                return true;
+                return false;
         }
     }
-    return false;
+    return true;
   }
 
   public int checkWinner() {
